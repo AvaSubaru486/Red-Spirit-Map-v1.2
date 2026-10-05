@@ -27,7 +27,7 @@ Set-Location 'D:\CODEX\个人网站\Red-Spirit-Map-v1.2'
 解压后双击 `自动部署/一键部署本地AI.exe`，或点击网站右上角“测试”中的“自动识别并启动”。默认部署 Qwen2.5-1.5B-Instruct Q4_K_M 与 llama.cpp CPU 服务，资源保存在项目内 `local-ai`，适合 16 GB 内存、4 GB 显存电脑；无需安装 Python 或 LM Studio。已有 LM Studio 也可通过 1234 端口自动识别。完整交付包已内置约 1.12 GB 模型与运行时，首次部署可离线完成，请预留 4 GB 磁盘空间。
 
 ```powershell
-Set-Location 'D:\CODEX\参赛项目\v1.1'
+Set-Location 'D:\CODEX\个人网站\Red-Spirit-Map-v1.2'
 & '.\自动部署\setup_ai.ps1'
 ```
 
